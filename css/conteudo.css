@@ -1,0 +1,139 @@
+.carousel{ 
+    margin-bottom: 1em;
+}
+
+
+.carousel-item h5, .carousel-item p{
+    text-shadow: 7px 0px 7px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1);
+	
+}
+
+.row h3{
+    padding: 8px;
+    width: 100%;
+}
+
+h3{ 
+    font-size: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+.comum{ background-color: #4b6584 }
+.destaque{ background-color: #eb3b5a }
+.comum, .destaque{ color: #fff }
+
+
+#curiosidades img{ 
+    margin: 0 auto; 
+    width: 60%;
+    height: auto;  
+}
+
+#curiosidades{
+    text-align: center;
+}
+#curiosidades p{
+    text-align: justify;
+}
+
+#curiosidades h3,
+#curiosidades h4{
+    text-align: left;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    flex: 1 1 0;
+    border: 1px outset #dce4ec;
+    text-align: center;
+    background-image: linear-gradient(#dce4ec, #dce4ec, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+.item-img{
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.item-img img{
+    width: 220px;
+    height: auto;
+    max-height: 330px;
+}
+
+.nome-vinho{
+    font-size: 25px;
+    color: #B2041D;
+}
+
+.preco-antigo{
+    color: #eb3b5a;
+    text-decoration-line: line-through;
+    margin-bottom: 0;
+}
+
+.preco{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4b6584;
+}
+
+.item-opcoes{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    width: 50%;
+}
+
+.item-opcoes div{
+    padding: 0.5em;
+    cursor: pointer;
+    width: 40%;
+}
+
+ul{
+    list-style: none;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.catalogo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.catalogo li{
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+.catalogo li :hover{
+    height: 6.5em;
+    width: 6.5em;
+}
+
+li img{
+    height: 100%;
+    width: 100%;
+}
+
+.embed-responsive{
+    margin-bottom: 2em; 
+}

@@ -1,0 +1,14 @@
+#rodape{
+    min-height: 100px;
+    margin-top: 1em;
+}
+
+#rodape ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+#rodape ul li img{
+    height: 48px;
+    width: auto; 
+}
